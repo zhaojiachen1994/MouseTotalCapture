@@ -8,3 +8,5 @@ This is the repository of the paper "Mouse Total Capture: 3D Motion and Expressi
 </details><div align=center><img src='figures/system.png' width='800' /></div>
 
 ## Dataset
+
+MousePano dataset contains
