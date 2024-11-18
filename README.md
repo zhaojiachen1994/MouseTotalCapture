@@ -70,7 +70,7 @@ The dataset is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfbl1b3
 ## Structure-aware Triangulation Network
 
 
-</details><div align=center><img src='figures/StruTriangNet.png' width='800' /></div>
+</details><div align=center><img src='figures/struTriangNet.png' width='800' /></div>
 
 
 
