@@ -32,7 +32,11 @@ annotations{
   'bbox': list([x, y, w, h]),
   'keypoints': list([x, y, v] * 24),
   'face_kpts': list([x, y, v] * 32),
-  'face_valid': 
+  'face_valid': bool,
+  'face_box': list([x, y, w, h]),
+  'lefthand_kpts': list([x, y, v] * 8),
+  'lefthand_valid': bool,
+  'l'
 
 
 }
