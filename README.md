@@ -59,6 +59,12 @@ groups{[
 ]}
 ```
 
+The 3D annotation file contains 
+
+```
+[scene_name: list([92, 4]), [x, y, z, v]]
+```
+
 
 
 The dataset is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfbl1b3TX9y8WMIHZbruuX0inwC9JfEJg74GxReB2vT4WHHgw/viewform?usp=sf_link)
