@@ -6,7 +6,8 @@
 This is the repository of the paper "Mouse Total Capture: 3D Motion and Expression Capture for the Freely Moving Mouse"
 
 </details><div align=center><img src='figures/system.png' width='800' /></div>
-</details><div align=center><img src='figures/examples.png' width='800' /></div>
+<!-- </details><div align=center><img src='figures/examples.png' width='800' /></div> -->
+
 ## Dataset
 
 MousePano dataset contains the annotation of whole-body [92 keypoints](https://github.com/zhaojiachen1994/MouseTotalCapture/blob/main/figures/kpt_def2.png) for a freely moving mouse. The annotation covers the trunk, limbs, tail, eyes, ears, fingers, and toes, providing a data foundation for fine-grained mouse behavior analysis. The annotations follow the [COCO format](https://cocodataset.org/#format-data). 
@@ -70,7 +71,7 @@ The dataset is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfbl1b3
 ## Structure-aware Triangulation Network
 
 
-</details><div align=center><img src='figures/struTriangNet.png' width='800' /></div>
+</details><div align=center><img src='figures/strucTriangNet.png' width='800' /></div>
 
 
 
