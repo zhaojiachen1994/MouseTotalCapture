@@ -73,6 +73,16 @@ The dataset is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfbl1b3
 
 </details><div align=center><img src='figures/strucTriangNet.png' width='800' /></div>
 
+## BibTeX
+
+```
+@article{Zhao2024MouseTotalCapture,
+  author    = {Jiachen Zhao, Tao Yu, Liang An, Qichen Qian, Fang Deng},
+  title     = {Mouse Total Capture: 3D Motion and Expression Capture for the Freely Moving Mouse},
+  journal   = {Under review},
+  year      = {2024},
+}
+```
 
 
 
