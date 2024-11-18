@@ -5,5 +5,6 @@
 
 This is the repository of the paper "Mouse Total Capture: 3D Motion and Expression Capture for the Freely Moving Mouse"
 
+</details><div align=centering><img src='figures/dog.png' width='800' /></div>
 
 ## Dataset
