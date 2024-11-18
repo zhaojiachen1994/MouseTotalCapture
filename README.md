@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This is the repository of the paper "Mouse Total Capture: 3D Motion and Expression Capture for the Freely Moving Mouse"
+This is the repository of the paper "Mouse Total Capture: 3D Motion and Expression Capture for the Freely Moving Mouse". More details can be found at our [homepage](https://metaverse-ai-lab-thu.github.io/MouseTotalCapture)
 
 </details><div align=center><img src='figures/system.png' width='800' /></div>
 <!-- </details><div align=center><img src='figures/examples.png' width='800' /></div> -->
