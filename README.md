@@ -24,7 +24,16 @@ annotations{
   'image_id': int,
   'id': int
   'cam': str,
-  'category'
+  'categoryi_d': 1,
+  'segmentation': [],
+  'num_keypoints': 92,
+  'area': float,
+  'iscrowd': 0,
+  'bbox': list([x, y, w, h]),
+  'keypoints': list([x, y, v] * 24),
+  'face_kpts': list([x, y, v] * 32),
+  'face_valid': 
+
 
 }
 
