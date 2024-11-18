@@ -20,7 +20,7 @@ images{[
   'id': int
 ]}
 
-annotations{
+annotations{[
   'image_id': int,
   'id': int
   'cam': str,
@@ -32,18 +32,31 @@ annotations{
   'bbox': list([x, y, w, h]),
   'keypoints': list([x, y, v] * 24),
   'face_kpts': list([x, y, v] * 32),
-  'face_valid': bool,
+  'face_valid': bool, whether the face is visible in this view
+  'Leye_valid': bool, 
+  'Lear_valid': bool,
+  'Rear_valid': bool,
+  'Reat_valid': bool,
   'face_box': list([x, y, w, h]),
   'lefthand_kpts': list([x, y, v] * 8),
   'lefthand_valid': bool,
-  'l'
+  'lefthand_box': list([x, y, w, h]),
+  'leftfoot_kpts': list([x, y, v] * 10),
+  'leftfoot_valid': bool,
+  'leftfoot_box': list([x, y, w, h]),
+  'righthand_kpts': list([x, y, v] * 8),
+  'righthand_valid': bool,
+  'righthand_box': list([x, y, w, h]),
+  'rightfoot_kpts': list([x, y, v] * 10),
+  'rightfoot_valid': bool,
+  'rightfoot_box': list([x, y, w, h]),
+]}
 
-
-}
-
-groups{
-  r
-}
+groups{[
+  'scene_name': str
+  'cams':  list, camera IDs in this scene
+  'image_id':  list, image IDs in this scene 
+]}
 ```
 
 
