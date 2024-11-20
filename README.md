@@ -73,6 +73,16 @@ The dataset is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfbl1b3
 
 </details><div align=center><img src='figures/strucTriangNet.png' width='800' /></div>
 
+* This project is based on mmpose=0.29.0, mmdet=2.25.3, mmcv 1.7.0. 
+
+* Pretrain the 2D backbone
+The first step is to pretrain the 2D detector on the 
+
+```
+
+``` 
+
+
 ## BibTeX
 
 ```
