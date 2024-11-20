@@ -107,6 +107,6 @@ python tools/test.py "configs/train/structriangnet_ViTPose_trainset_256x256.py" 
 
 ---
 
-**This repository is still working on**
+**This repository is still working on. If you have any questions, please connect zhao_jiachen@163.com**
 
 
