@@ -73,15 +73,26 @@ The dataset is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfbl1b3
 
 </details><div align=center><img src='figures/strucTriangNet.png' width='800' /></div>
 
-* This project is based on mmpose=0.29.0, mmdet=2.25.3, mmcv 1.7.0. 
+* This project is based on mmpose=0.29.0, mmdet=2.25.3, mmcv 1.7.0. More details about the project structure and config file can be found [here](https://mmpose.readthedocs.io/en/0.x/)
 
 * Pretrain the 2D backbone
-The first step is to pretrain the 2D detector on the 
+
+  * The first step is to train the 2D detector (ViTPose) on the WholeMouseDataset. The ViTPose can be downloaded from [here](https://github.com/ViTAE-Transformer/ViTPose?tab=readme-ov-file#animal-datasets-ap10k-apt36k). We used ViTPose+-S model pretraind on apt36k dataset.
 
 ```
-
+python tools/train.py "configs/ViTPose_trainset_256x256.py" --gpu-id 0
 ``` 
 
+* Train the StrucTriangNet
+```
+python tools/train.py "configs/train/structriangnet_ViTPose_trainset_256x256.py" --gpu-id 0
+```
+
+* Evaluate the StrucTriangNet
+
+```
+python tools/test.py "configs/train/structriangnet_ViTPose_trainset_256x256.py" --gpu-id 0
+```
 
 ## BibTeX
 
@@ -94,5 +105,8 @@ The first step is to pretrain the 2D detector on the
 }
 ```
 
+---
+
+**This repository is still working on**
 
 
