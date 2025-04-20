@@ -19,37 +19,6 @@ except ImportError:
                   'Please install mmcv>=1.1.4')
     from mmpose.core import auto_fp16
 
-# class Attention(nn.Module):
-#     def __init__(self, key_dim, query_dim, out_dim):
-#         super(Attention, self).__init__()
-#         self.key_transform = nn.Linear(key_dim, out_dim)
-#         self.query_transform = nn.Linear(query_dim, out_dim)
-#         self.scale = 1.0/(out_dim**0.5)
-#
-#     def forward(self, features, embeds):
-#         """
-#         :param features: [num_images, feature_dim, 16, 16]
-#         :param embeds: [num_joints, query_dim]
-#         :return:
-#         """
-#         # ic(features.shape, embeds.shape)
-#         features = features.view(features.size(0), features.size(1), -1)
-#         transformed_keys = self.key_transform(features)
-#         transformed_queries = self.query_transform(embeds)
-#         # ic(transformed_keys.shape, transformed_queries.shape)
-#
-#         attention_scores = torch.matmul(transformed_keys, transformed_queries.T) * self.scale
-#         # ic(attention_scores.shape)
-#         # attention_scores = torch.einsum('bid, kd->bik', transformed_keys, transformed_queries) * self.scale
-#         # ic(attention_scores.shape)
-#         attention_weights = F.softmax(attention_scores, dim=-1)
-#         # ic(attention_weights.shape, transformed_keys.shape)
-#         context = torch.einsum('bik, bij->bkj', attention_weights, transformed_keys)
-#         # ic(context.shape)
-#         return context
-
-
-
 def _get_max_preds(heatmaps):
     """Get keypoint predictions from score maps.
 
